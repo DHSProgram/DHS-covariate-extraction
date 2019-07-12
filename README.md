@@ -16,10 +16,12 @@ ESRI ArcMap 10.X still uses Python 2, sorry.
 
 ## Setup
 ### Initial Setup
-#### Dependencies
- A full list of the dependencies needed to run the extraction code ([/Python/](/Python/)) can be found [here](/Python/conda_environment.yml). We utilize a conda environment to sandbox dependencies of diffrent processes. GDAL, RasterIO, and Fiona are all testy to install in Windows. Check with each package for the best practices for installing it.
 
-####
+1. Edit the base paths in [/Python/config.py](/Python/config.py) to the paths of the points, buffers, and rasters folders on your local machine. Save that file.
+2. Populate the [/raster/](/raster/) folder structure with the raster data that you would like to 
+
+#### Dependencies
+  A full list of the dependencies needed to run the extraction code ([/Python/](/Python/)) can be found [here](/Python/conda_environment.yml). We utilize a conda environment to sandbox dependencies of different processes. GDAL, RasterIO, and Fiona are all testy to install in Windows. Check with each package for the best practices for installing it.
 
 ### Per Dataset Setup
 

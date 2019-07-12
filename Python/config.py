@@ -5,7 +5,7 @@ import os
 # Variables defining paths to points, buffers, and rasters
 points_base_path =  r'C:\DHS-covariate-extraction\points'
 buffers_base_path = r'C:\DHS-covariate-extraction\buffers'
-rasters_base_path = r'DHS-covariate-extraction\rasters'
+rasters_base_path = r'C:\DHS-covariate-extraction\rasters'
 
 points = {'clark_1866': os.path.join(points_base_path, 'clark1866.shp'),
           'evi_custom': os.path.join(points_base_path, 'evi_custom.shp'),
