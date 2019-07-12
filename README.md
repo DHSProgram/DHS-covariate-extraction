@@ -18,13 +18,17 @@ ESRI ArcMap 10.X still uses Python 2, sorry.
 ### Initial Setup
 
 1. Edit the base paths in [/Python/config.py](/Python/config.py) to the paths of the points, buffers, and rasters folders on your local machine. Save that file.
-2. Populate the [/raster/](/raster/) folder structure with the raster data that you would like to 
+2. Populate the [/raster/](/raster/) folder structure with the raster data that you would like to extract values from. Example folders were added as an attempt to help you figure out the data management.
+3. (If you are going to use ESRI ArcMap to make the buffers) Edit the paths in the [/dependency/buffer/buffer.py](/dependency/buffer/buffer.py) to reflect the paths to the mxd, shp, and buffers folders on your computer.
+4. You may want to delete the `.gitignore` files found throughout the folder structure to prevent a script from tripping.
 
 #### Dependencies
   A full list of the dependencies needed to run the extraction code ([/Python/](/Python/)) can be found [here](/Python/conda_environment.yml). We utilize a conda environment to sandbox dependencies of different processes. GDAL, RasterIO, and Fiona are all testy to install in Windows. Check with each package for the best practices for installing it.
 
 ### Per Dataset Setup
-
+1. Download your points from the from [The DHS Program](https://dhsprogram.com/data/available-datasets.cfm) website.
+2. Open the points in you favorite GIS program and save them as
+3. (If you are going to use ESRI ArcMap to make the buffers) Open each ArcMap document and add the points that you added in the points folder.
 
 ## Folder Structure
 ### /buffers/
@@ -64,3 +68,7 @@ Your points from [The DHS Program](https://dhsprogram.com/data/available-dataset
 
 ### /rasters/
 The raster files that you want to get extractions from broken down by projection and then further broken down by source.
+
+## Questions
+
+For questions please email: gpsrequests@dhsprogram.com
