@@ -1,6 +1,6 @@
 # DHS Covariate Extraction
 
-Python code for the extraction of covariates from other sources for DHS clusters. For the results of this kind of processing, please see our publicly available [Geospatial Covariates (GC files)](https://spatialdata.dhsprogram.com/covariates/).
+Python code for the extraction of covariates from other sources for DHS clusters. For the results of this kind of processing, please see our publicly available [Geospatial Covariates (GC) files](https://spatialdata.dhsprogram.com/covariates/).
 
 ## Background and process
 For a more detailed overview of how the extraction process works and information about the rasters that we use for our covariate (GC) files, please see:
