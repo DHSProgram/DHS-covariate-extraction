@@ -18,7 +18,7 @@ ESRI ArcMap 10.X still uses Python 2, sorry.
 ### Initial Setup
 
 1. Edit the base paths in [/Python/config.py](/Python/config.py) to the paths of the points, buffers, and rasters folders on your local machine. Save that file.
-2. Populate the [/raster/](/raster/) folder structure with the raster data that you would like to extract values from. Example folders were added as an attempt to help you figure out the data management.
+2. Populate the [/raster/](/raster/) folder structure with the raster data that you would like to extract values from. Example folders were added as an attempt to help you figure out the data management. For more information about the data management see [the rasters section](#rasters)
 3. (If you are going to use ESRI ArcMap to make the buffers) Edit the paths in the [/dependency/buffer/buffer.py](/dependency/buffer/buffer.py) to reflect the paths to the mxd, shp, and buffers folders on your computer.
 4. You may want to delete the `.gitignore` files found throughout the folder structure to prevent a script from tripping.
 
